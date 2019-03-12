@@ -72,21 +72,29 @@
             <id>ext-release-repo</id>
             <name>Artifactory-releases-ext</name>
             <url>http://estigia.lsi.us.es:1681/artifactory/libs-release</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>false</enabled></snapshots>
         </repository>
         <repository>
             <id>release-repo</id>
             <name>Artifactory-releases-local</name>
-            <url>http://estigia.lsi.us.es:1681/artifactory/libs-releases-local</url>
+            <url>http://estigia.lsi.us.es:1681/artifactory/libs-release-local</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>false</enabled></snapshots>
         </repository>
         <repository>
             <id>ext-snapshot-repo</id>
             <name>Artifactory-snapshots-ext</name>
-            <url>http://estigia.lsi.us.es:1681/artifactory/libs-snapshots</url>
+            <url>http://estigia.lsi.us.es:1681/artifactory/libs-snapshot</url>
+            <releases><enabled>false</enabled></releases>
+            <snapshots><enabled>true</enabled></snapshots>
         </repository>
         <repository>
             <id>snapshot-repo</id>
             <name>Artifactory-snapshots</name>
-            <url>http://estigia.lsi.us.es:1681/artifactory/libs-snapshots-local</url>
+            <url>http://estigia.lsi.us.es:1681/artifactory/libs-snapshot-local</url>
+            <releases><enabled>false</enabled></releases>
+            <snapshots><enabled>true</enabled></snapshots>
         </repository>
     </repositories>
 
@@ -94,7 +102,7 @@
         <repository>
             <id>release-repo</id>
             <name>Artifactory-releases</name>
-            <url>${env.ARTIFACTORY_URL}/libs-releases-local</url>
+            <url>${env.ARTIFACTORY_URL}/libs-release-local</url>
         </repository>
 
         <snapshotRepository>
