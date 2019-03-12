@@ -16,15 +16,13 @@ object XesUtility {
     import scala.collection.JavaConverters._
 
     val file = new File("datasets/json_tipo_workstations_timestamps_labels.json")
-    //val file = new File("datasets/json_tipo_allaccodes_oneline.json")
-    //val file = new File("datasets/prueba_anidada.json")
+
     val fileLines = Files.readAllLines(file.toPath).asScala.toList
 
     val jsonStr = "[" + fileLines.mkString(", ") + "]"
 
     val mapper = new ObjectMapper()
-    //val json = mapper.readTree(new File("datasets/fixed.json"))
-    //val json = mapper.readTree(new File("datasets/json_tipo_workstations_timestamps_labels.json"))
+
     val json = mapper.readTree(jsonStr)
     val schema = JsonUtil.inferSchema(json,"root")
     val chameleonSchema = JsonTypeConversor.json2chameleon(schema)
@@ -78,7 +76,7 @@ object XesUtility {
     val xesStr3 = XesDataConversor.xLogToString(transformed3)
     new PrintWriter("output/T3.xes") { write(xesStr3); close }
 
-    println("Finished")
+    println("Xes files have been successfully created.")
   }
 
 }
