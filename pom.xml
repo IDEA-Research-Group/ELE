@@ -26,28 +26,11 @@
             <version>2.11.8</version>
         </dependency>
 
-        <!--
         <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.11</artifactId>
-            <version>2.3.1</version>
-            <scope>compile</scope>
+            <groupId>es.us.idea</groupId>
+            <artifactId>data-chameleon-core</artifactId>
+            <version>0.2.0-SNAPSHOT</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-sql_2.11</artifactId>
-            <version>2.3.1</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.mongodb.spark</groupId>
-            <artifactId>mongo-spark-connector_2.11</artifactId>
-            <version>2.3.1</version>
-            <scope>compile</scope>
-        </dependency>
-        -->
 
         <dependency>
             <groupId>joda-time</groupId>
@@ -63,43 +46,11 @@
             <scope>compile</scope>
         </dependency>
 
-<!--        <dependency>
-            <groupId>com.fasterxml.jackson.dataformat</groupId>
-            <artifactId>jackson-dataformat-xml</artifactId>
-            <version>2.3.1</version>
-            <scope>compile</scope>
-        </dependency>
-
-        &lt;!&ndash; https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core &ndash;&gt;
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>2.3.1</version>
-        </dependency>
-
-        &lt;!&ndash; https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations &ndash;&gt;
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-            <version>2.3.1</version>
-        </dependency>-->
-
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
             <version>2.2.6</version>
             <scope>compile</scope>
-        </dependency>
-
-
-        <!--
-        libraryDependencies += "Spex" % "Spex" % "1" from "http://estigia.lsi.us.es:1681/artifactory/libs-release/Spex/Spex/1/Spex-1.jar"
-        libraryDependencies += "OpenXES" % "OpenXES" % "20160212" from "http://estigia.lsi.us.es:1681/artifactory/libs-release/OpenXES/OpenXES/20160212/OpenXES-20160212.jar"
-        -->
-        <dependency>
-            <groupId>es.us.idea</groupId>
-            <artifactId>data-chameleon-core</artifactId>
-            <version>0.2.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -116,18 +67,20 @@
 
     </dependencies>
 
-    <repositories>
+    <distributionManagement>
         <repository>
             <id>release-repo</id>
             <name>Artifactory-releases</name>
-            <url>http://estigia.lsi.us.es:1681/artifactory/libs-release</url>
+            <url>${env.ARTIFACTORY_URL}/libs-releases-local</url>
         </repository>
-        <repository>
+
+        <snapshotRepository>
             <id>snapshot-repo</id>
             <name>Artifactory-snapshots</name>
-            <url>http://estigia.lsi.us.es:1681/artifactory/libs-snapshot</url>
-        </repository>
-    </repositories>
+            <url>${env.ARTIFACTORY_URL}/libs-snapshot-local</url>
+        </snapshotRepository>
+
+    </distributionManagement>
 
     <build>
         <plugins>
@@ -164,7 +117,7 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
-            <!-- Allows us to package fat jars -->
+            <!-- Allows us to package fat jars
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -183,7 +136,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>

@@ -13,21 +13,6 @@ object XesUtility {
 
   def main(args: Array[String]) = {
 
-    import scala.collection.JavaConverters._
-
-    val file = new File("datasets/json_tipo_workstations_timestamps_labels.json")
-
-    val fileLines = Files.readAllLines(file.toPath).asScala.toList
-
-    val jsonStr = "[" + fileLines.mkString(", ") + "]"
-
-    val mapper = new ObjectMapper()
-
-    val json = mapper.readTree(jsonStr)
-    val schema = JsonUtil.inferSchema(json,"root")
-    val chameleonSchema = JsonTypeConversor.json2chameleon(schema)
-    val data = JsonDataConversor.json2chameleon(json)
-
     import es.us.idea.adt.data.chameleon.dsl.implicits._
     import es.us.idea.ele.xes.dsl.implicits._
 
