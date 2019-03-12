@@ -24,3 +24,7 @@ target/
 .scala_dependencies
 .worksheet
 src/main/scala/es/us/idea/adt/benchmark/*
+datasets/fixed.json
+datasets/json_tipo_workstations_timestamps_labels.json
+src/main/scala/es/us/idea/adt/data/chameleon/BPMN.scala
+src/main/scala/es/us/idea/adt/data/chameleon/Test.scala
