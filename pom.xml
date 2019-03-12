@@ -67,6 +67,29 @@
 
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>ext-release-repo</id>
+            <name>Artifactory-releases-ext</name>
+            <url>http://estigia.lsi.us.es:1681/artifactory/libs-release</url>
+        </repository>
+        <repository>
+            <id>release-repo</id>
+            <name>Artifactory-releases-local</name>
+            <url>http://estigia.lsi.us.es:1681/artifactory/libs-releases-local</url>
+        </repository>
+        <repository>
+            <id>ext-snapshot-repo</id>
+            <name>Artifactory-snapshots-ext</name>
+            <url>http://estigia.lsi.us.es:1681/artifactory/libs-snapshots</url>
+        </repository>
+        <repository>
+            <id>snapshot-repo</id>
+            <name>Artifactory-snapshots</name>
+            <url>http://estigia.lsi.us.es:1681/artifactory/libs-snapshots-local</url>
+        </repository>
+    </repositories>
+
     <distributionManagement>
         <repository>
             <id>release-repo</id>
