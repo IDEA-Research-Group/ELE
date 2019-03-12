@@ -1,13 +1,8 @@
 package es.us.idea.ele
 
-import java.io.{File, PrintWriter}
-import java.nio.file.Files
-
-import com.fasterxml.jackson.databind.ObjectMapper
+import java.io.PrintWriter
 import es.us.idea.adt.data.chameleon.internal.dtfs._
-import es.us.idea.ele.json.conversor.{JsonDataConversor, JsonTypeConversor}
 import es.us.idea.ele.xes.dsl.XesDataConversor
-import org.kitesdk.data.spi.JsonUtil
 
 object XesUtility {
 
