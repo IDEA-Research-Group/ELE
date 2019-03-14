@@ -1,6 +1,6 @@
 package es.us.idea.ele.xes.dsl
 
-import java.io.File
+import java.io.{File, PrintWriter}
 import java.nio.file.Files
 
 import com.fasterxml.jackson.databind.ObjectMapper
@@ -16,6 +16,7 @@ import es.us.idea.adt.data.chameleon.internal.dtf.filter.predicates.GreaterThan
 import es.us.idea.adt.data.chameleon.internal.dtf.flatten.Flatten
 import es.us.idea.adt.data.chameleon.internal.dtf.group.GroupBy
 import es.us.idea.ele.json.conversor.{JsonDataConversor, JsonTypeConversor}
+import org.deckfour.xes.model.XLog
 import org.kitesdk.data.spi.JsonUtil
 
 object implicits {
@@ -197,7 +198,7 @@ object implicits {
     * */
 
   case class extract(id: id, event: event) {
-    def from(jsonPath: String): Any = {
+    def from(jsonPath: String): XLog = {
       // Import java converters
       import scala.collection.JavaConverters._
       // Read File
@@ -222,10 +223,25 @@ object implicits {
       val idRes = id.interpret(data, chameleonSchema)
       val eventRes = event.interpret(idRes._1, idRes._2)
 
-      eventRes._1
-
+      // Transform to XES and return an XLog file
+      XesDataConversor.chameleon2xes(eventRes._1)
     }
   }
+
+  /**
+    * Save to file function and implicit
+    * */
+  def saveXesToFile(xlog: XLog, path: String) = {
+    val xesStr = XesDataConversor.xLogToString(xlog)
+    new PrintWriter(path) { write(xesStr); close }
+  }
+
+  implicit class XLogToUtilityFunctions(xlog: XLog) {
+    def save(path: String) = saveXesToFile(xlog, path)
+    def print() = println(XesDataConversor.xLogToString(xlog))
+  }
+
+
 
   /**
     * Utility functions
