@@ -12,7 +12,7 @@ ELE has been tested with JSON files obtained from MongoDB databses. The integrat
 
 1. [Case study](#case-study)
 2. [Running the case study](#runnning-case-study)
-3. [Using this framework in your project](#running-external)
+3. [Using this framework in your project](#using-external)
 
 <a name="case-study"/>
 
