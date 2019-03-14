@@ -10,6 +10,11 @@ This project is a part of the research contribution named "Transformation of Com
 
 ELE has been tested with JSON files obtained from MongoDB databses. The integration with Big Data tools and the support of further data sources is a future work.
 
+1. [Case study](#case-study)
+2. [Running the case study](#runnning-case-study)
+3. [Using this framework in your project](#running-external)
+
+<a name="case-study"/>
 ## Case study
 
 Our research contribution is based on a real-world case study which in short consists of the extraction of event log from a raw log which specifies the assembly process of a set of aircrafts. Further information on the characteristics of the dataset can be found in the paper.
@@ -154,7 +159,7 @@ The resulting XES file can be found in the directory `output/T3.xes`. Here is an
  [...]
 </log>
 ```
-
+<a name="runnning-case-study"/>
 ## Running the case study
 
 The implementation has been carried out in a Scala object located at `es.us.idea.ele.XesUtility`. It can be executed by following the following steps:
@@ -166,7 +171,8 @@ The implementation has been carried out in a Scala object located at `es.us.idea
 
 2. Execute the class `es.us.idea.ele.XesUtility`
 
-## Using this framework in an external project
+<a name="using-external"/>
+## Using this framework in your project
 
 In order to use this framework in a project, you need to import the following Maven dependency:
 
