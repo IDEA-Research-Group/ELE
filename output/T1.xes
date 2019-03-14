@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<trace>
+		<string key="concept:name" value="AZ-12407999.O"/>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-05-30T07:54:51.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-06-23T21:44:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-544181"/>
+			<date key="time:timestamp" value="2016-05-28T14:42:41.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-08-20T13:36:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-429495"/>
+			<date key="time:timestamp" value="2016-10-07T13:27:57.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-05-30T07:28:43.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-491953"/>
+			<date key="time:timestamp" value="2016-05-25T21:35:22.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-08-12T14:18:23.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-878709"/>
+			<date key="time:timestamp" value="2016-07-11T16:02:25.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-055276"/>
+			<date key="time:timestamp" value="2016-07-12T07:47:41.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-249659"/>
+			<date key="time:timestamp" value="2016-06-24T09:55:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-413218"/>
+			<date key="time:timestamp" value="2016-06-08T13:03:56.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-08-17T08:19:58.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-06-01T16:35:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-759024"/>
+			<date key="time:timestamp" value="2016-07-07T14:07:50.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-06-15T12:02:00.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-06-23T12:20:50.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-286668"/>
+			<date key="time:timestamp" value="2016-10-10T08:00:30.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-06-24T16:21:24.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-08-23T17:08:06.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-08-03T14:14:09.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612997"/>
+			<date key="time:timestamp" value="2016-08-03T13:39:26.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-567911"/>
+			<date key="time:timestamp" value="2016-08-16T14:33:39.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-05-31T21:26:05.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-08-05T10:26:09.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-241092"/>
+			<date key="time:timestamp" value="2016-07-11T07:58:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-821420"/>
+			<date key="time:timestamp" value="2016-07-13T15:48:04.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-375645"/>
+			<date key="time:timestamp" value="2016-07-07T16:38:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-08-22T20:50:02.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-928482"/>
+			<date key="time:timestamp" value="2016-10-07T08:12:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-121095"/>
+			<date key="time:timestamp" value="2016-07-07T22:10:58.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-17214262.R"/>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-04-19T13:42:03.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-05-25T09:46:23.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-886318"/>
+			<date key="time:timestamp" value="2016-09-09T19:00:58.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-07-07T20:15:25.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-429495"/>
+			<date key="time:timestamp" value="2016-09-12T21:53:48.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-728223"/>
+			<date key="time:timestamp" value="2016-09-28T12:29:24.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-491953"/>
+			<date key="time:timestamp" value="2016-04-18T21:44:59.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-878709"/>
+			<date key="time:timestamp" value="2016-06-15T15:52:00.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-055276"/>
+			<date key="time:timestamp" value="2016-06-09T15:47:41.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-249659"/>
+			<date key="time:timestamp" value="2016-06-02T15:47:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-417402"/>
+			<date key="time:timestamp" value="2016-09-26T14:15:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-07-07T15:54:03.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-05-04T14:09:02.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-895249"/>
+			<date key="time:timestamp" value="2016-09-26T14:15:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-759024"/>
+			<date key="time:timestamp" value="2016-06-09T14:18:44.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-531760"/>
+			<date key="time:timestamp" value="2016-06-03T09:04:48.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-05-11T12:05:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-05-30T14:23:00.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-286668"/>
+			<date key="time:timestamp" value="2016-09-15T19:09:53.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-05-25T16:24:44.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-07-07T11:52:04.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-07-01T19:43:19.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-915707"/>
+			<date key="time:timestamp" value="2016-09-29T13:58:02.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-04-21T11:31:49.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-05-23T11:24:42.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-241092"/>
+			<date key="time:timestamp" value="2016-06-07T11:23:23.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-821420"/>
+			<date key="time:timestamp" value="2016-06-10T18:21:12.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-375645"/>
+			<date key="time:timestamp" value="2016-06-08T20:37:02.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-07-07T07:49:37.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-341217"/>
+			<date key="time:timestamp" value="2016-09-09T10:26:15.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-928482"/>
+			<date key="time:timestamp" value="2016-09-12T08:12:24.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-121095"/>
+			<date key="time:timestamp" value="2016-06-10T15:43:41.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-11859268.Y"/>
+		<event>
+			<string key="concept:name" value="WS-614213"/>
+			<date key="time:timestamp" value="2016-06-27T21:36:50.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-06-10T10:05:10.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-886318"/>
+			<date key="time:timestamp" value="2016-08-26T12:44:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-08-10T13:19:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-429495"/>
+			<date key="time:timestamp" value="2016-08-30T11:02:24.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-06-15T12:59:22.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-05-13T13:22:49.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-906948"/>
+			<date key="time:timestamp" value="2016-05-04T20:30:42.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-728223"/>
+			<date key="time:timestamp" value="2016-09-09T22:05:54.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-05-04T17:00:49.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-074781"/>
+			<date key="time:timestamp" value="2016-06-28T15:35:39.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-249659"/>
+			<date key="time:timestamp" value="2016-06-14T12:44:02.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-417402"/>
+			<date key="time:timestamp" value="2016-09-13T13:56:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-07-26T09:08:05.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-05-18T13:25:40.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-895249"/>
+			<date key="time:timestamp" value="2016-09-13T22:03:34.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-950765"/>
+			<date key="time:timestamp" value="2016-06-28T15:42:25.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-615244"/>
+			<date key="time:timestamp" value="2016-06-28T07:41:33.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-531760"/>
+			<date key="time:timestamp" value="2016-07-04T20:25:28.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-000621"/>
+			<date key="time:timestamp" value="2016-06-27T21:30:08.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-05-24T08:11:09.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-06-14T10:02:33.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-286668"/>
+			<date key="time:timestamp" value="2016-08-26T12:51:35.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-06-11T09:35:41.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-07-25T07:46:48.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-07-19T12:11:10.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612997"/>
+			<date key="time:timestamp" value="2016-06-24T15:12:10.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-567911"/>
+			<date key="time:timestamp" value="2016-08-08T09:16:12.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-915707"/>
+			<date key="time:timestamp" value="2016-09-13T14:15:41.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-05-06T14:18:12.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-07-18T15:31:19.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-183736"/>
+			<date key="time:timestamp" value="2016-06-28T08:20:57.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-07-25T11:27:58.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-341217"/>
+			<date key="time:timestamp" value="2016-08-26T12:04:49.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-928482"/>
+			<date key="time:timestamp" value="2016-08-26T16:23:30.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-119287"/>
+			<date key="time:timestamp" value="2016-06-28T08:29:51.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="PL-11326252.I"/>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-09-15T20:40:59.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-10-06T13:38:52.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-10-07T22:32:19.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-491953"/>
+			<date key="time:timestamp" value="2016-09-12T13:13:29.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-09-24T13:35:53.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-09-12T07:32:38.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-09-22T18:49:30.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-10-07T10:00:35.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-10-07T10:36:11.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-09-10T09:28:19.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-15290667.M"/>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-02-14T08:15:16.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-03-16T20:51:15.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-886318"/>
+			<date key="time:timestamp" value="2016-06-13T08:14:05.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-05-10T14:09:54.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-429495"/>
+			<date key="time:timestamp" value="2016-06-13T12:05:29.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-03-21T07:19:52.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-04-28T11:26:24.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-728223"/>
+			<date key="time:timestamp" value="2016-07-11T21:29:01.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-048654"/>
+			<date key="time:timestamp" value="2016-09-26T14:28:01.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-491953"/>
+			<date key="time:timestamp" value="2016-02-13T13:44:06.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-878709"/>
+			<date key="time:timestamp" value="2016-04-18T15:51:54.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-055276"/>
+			<date key="time:timestamp" value="2016-04-07T18:33:16.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-249659"/>
+			<date key="time:timestamp" value="2016-03-28T07:51:38.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-417402"/>
+			<date key="time:timestamp" value="2016-07-11T14:13:25.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-05-09T19:58:50.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-02-19T18:09:31.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-895249"/>
+			<date key="time:timestamp" value="2016-07-12T12:17:34.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-759024"/>
+			<date key="time:timestamp" value="2016-04-08T07:43:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-531760"/>
+			<date key="time:timestamp" value="2016-04-21T15:30:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-03-04T09:57:38.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-03-18T14:52:07.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-286668"/>
+			<date key="time:timestamp" value="2016-06-15T20:40:31.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-03-17T12:13:35.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-05-11T20:52:19.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-03-10T14:20:04.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612997"/>
+			<date key="time:timestamp" value="2016-05-04T16:30:39.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-567911"/>
+			<date key="time:timestamp" value="2016-05-27T15:49:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-915707"/>
+			<date key="time:timestamp" value="2016-07-13T14:10:47.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-02-19T09:29:35.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-03-15T16:51:16.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-241092"/>
+			<date key="time:timestamp" value="2016-04-08T16:04:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-821420"/>
+			<date key="time:timestamp" value="2016-04-20T08:06:38.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-375645"/>
+			<date key="time:timestamp" value="2016-04-08T07:50:50.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-05-09T16:25:52.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-341217"/>
+			<date key="time:timestamp" value="2016-06-15T13:09:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-928482"/>
+			<date key="time:timestamp" value="2016-06-16T16:08:50.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-121095"/>
+			<date key="time:timestamp" value="2016-04-08T15:54:25.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-15118583.O"/>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-08-11T12:38:03.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-09-08T14:00:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-09-21T20:47:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-491953"/>
+			<date key="time:timestamp" value="2016-08-05T10:52:00.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-878709"/>
+			<date key="time:timestamp" value="2016-10-05T19:11:47.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-055276"/>
+			<date key="time:timestamp" value="2016-09-22T10:02:08.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-07-27T13:08:42.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-759024"/>
+			<date key="time:timestamp" value="2016-09-21T19:26:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-08-23T12:25:53.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-09-06T20:15:04.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-09-07T10:35:38.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-09-08T13:06:43.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-07-28T08:30:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-10-04T16:37:00.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-241092"/>
+			<date key="time:timestamp" value="2016-09-23T07:40:02.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-821420"/>
+			<date key="time:timestamp" value="2016-09-26T16:09:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-375645"/>
+			<date key="time:timestamp" value="2016-09-21T19:31:16.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-121095"/>
+			<date key="time:timestamp" value="2016-09-22T15:48:31.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-10223890.M"/>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-06-30T13:34:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-07-26T21:49:12.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-09-28T20:01:28.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-09-15T13:53:59.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-491953"/>
+			<date key="time:timestamp" value="2016-06-15T16:30:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-878709"/>
+			<date key="time:timestamp" value="2016-08-24T15:44:50.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-055276"/>
+			<date key="time:timestamp" value="2016-08-22T13:23:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-09-21T07:59:32.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-07-06T16:32:01.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-759024"/>
+			<date key="time:timestamp" value="2016-08-19T12:33:45.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-531760"/>
+			<date key="time:timestamp" value="2016-09-15T13:10:53.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-07-08T13:33:40.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-07-26T21:48:52.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-07-26T07:47:08.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-09-23T13:40:56.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612997"/>
+			<date key="time:timestamp" value="2016-09-15T20:50:10.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-06-22T21:35:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-09-15T12:39:46.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-241092"/>
+			<date key="time:timestamp" value="2016-08-22T15:40:53.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-821420"/>
+			<date key="time:timestamp" value="2016-08-23T08:22:29.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-375645"/>
+			<date key="time:timestamp" value="2016-08-19T11:19:16.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-09-28T15:52:32.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-663292"/>
+			<date key="time:timestamp" value="2016-06-21T16:16:22.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-121095"/>
+			<date key="time:timestamp" value="2016-08-18T13:39:30.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-343178"/>
+			<date key="time:timestamp" value="2016-09-12T08:41:29.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-18062960.M"/>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-09-27T11:01:52.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-906948"/>
+			<date key="time:timestamp" value="2016-09-27T15:57:54.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-09-27T14:47:47.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-09-27T14:08:07.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-09-26T14:31:20.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="PL-14845256.V"/>
+		<event>
+			<string key="concept:name" value="WS-614213"/>
+			<date key="time:timestamp" value="2016-06-01T12:13:01.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-05-13T10:46:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-06-30T13:08:07.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-04-27T18:18:08.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-04-05T14:08:34.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-906948"/>
+			<date key="time:timestamp" value="2016-04-01T14:11:10.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-282544"/>
+			<date key="time:timestamp" value="2016-06-21T12:42:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-04-01T17:51:01.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-074781"/>
+			<date key="time:timestamp" value="2016-06-01T15:47:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-06-27T07:54:09.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-04-11T13:15:58.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-950765"/>
+			<date key="time:timestamp" value="2016-06-06T15:58:45.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-615244"/>
+			<date key="time:timestamp" value="2016-05-31T18:47:24.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-000621"/>
+			<date key="time:timestamp" value="2016-06-01T07:49:45.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-04-27T12:09:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-05-17T09:41:56.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-05-13T11:18:16.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-06-30T07:52:33.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-05-13T16:36:42.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612997"/>
+			<date key="time:timestamp" value="2016-06-29T18:30:15.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-567911"/>
+			<date key="time:timestamp" value="2016-07-04T10:13:00.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-04-04T11:53:22.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-04-27T14:49:45.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-183736"/>
+			<date key="time:timestamp" value="2016-06-01T12:23:31.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-06-27T18:18:31.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-119287"/>
+			<date key="time:timestamp" value="2016-06-01T18:03:07.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-11781984.D"/>
+		<event>
+			<string key="concept:name" value="WS-614213"/>
+			<date key="time:timestamp" value="2016-09-08T13:11:26.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-08-24T22:23:56.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-09-29T19:10:19.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-07-21T22:22:32.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-906948"/>
+			<date key="time:timestamp" value="2016-07-19T21:36:55.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-06-29T12:30:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-074781"/>
+			<date key="time:timestamp" value="2016-09-08T07:50:03.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-10-04T21:25:26.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-07-18T08:15:50.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-950765"/>
+			<date key="time:timestamp" value="2016-09-07T18:48:48.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-615244"/>
+			<date key="time:timestamp" value="2016-09-07T18:25:45.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-000621"/>
+			<date key="time:timestamp" value="2016-09-07T16:07:28.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-07-27T08:42:43.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-08-23T10:09:11.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-08-22T16:22:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-10-05T17:34:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-08-24T16:08:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-07-08T13:14:19.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-09-02T09:32:48.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-183736"/>
+			<date key="time:timestamp" value="2016-09-07T22:01:55.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-10-04T21:28:11.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-119287"/>
+			<date key="time:timestamp" value="2016-09-06T14:20:00.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-14434229.D"/>
+		<event>
+			<string key="concept:name" value="WS-614213"/>
+			<date key="time:timestamp" value="2016-10-07T14:20:29.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-09-26T22:18:51.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-09-05T12:09:40.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-906948"/>
+			<date key="time:timestamp" value="2016-08-25T12:17:04.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-08-27T07:54:25.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-074781"/>
+			<date key="time:timestamp" value="2016-10-06T13:02:25.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-249659"/>
+			<date key="time:timestamp" value="2016-09-28T07:38:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-08-29T08:05:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-950765"/>
+			<date key="time:timestamp" value="2016-10-06T17:47:23.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-615244"/>
+			<date key="time:timestamp" value="2016-10-05T13:50:19.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-531760"/>
+			<date key="time:timestamp" value="2016-09-14T12:08:29.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-000621"/>
+			<date key="time:timestamp" value="2016-10-07T07:45:41.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-09-07T09:30:59.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-09-22T21:11:32.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-09-23T12:33:48.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-08-26T14:26:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-09-27T09:03:11.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-183736"/>
+			<date key="time:timestamp" value="2016-10-06T13:42:53.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-119287"/>
+			<date key="time:timestamp" value="2016-10-06T13:47:25.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-11947301.U"/>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-10-07T12:11:15.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-10-10T14:15:18.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-15857796.P"/>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-03-12T12:26:33.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-04-26T10:36:25.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-886318"/>
+			<date key="time:timestamp" value="2016-07-11T13:44:51.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-06-14T12:17:19.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-429495"/>
+			<date key="time:timestamp" value="2016-07-12T08:18:31.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-04-28T11:28:15.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-728223"/>
+			<date key="time:timestamp" value="2016-08-17T18:55:51.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-491953"/>
+			<date key="time:timestamp" value="2016-03-12T11:04:54.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-878709"/>
+			<date key="time:timestamp" value="2016-05-23T07:55:18.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-055276"/>
+			<date key="time:timestamp" value="2016-05-10T13:09:12.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-417402"/>
+			<date key="time:timestamp" value="2016-08-17T14:18:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-06-08T17:12:33.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-03-28T22:23:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-895249"/>
+			<date key="time:timestamp" value="2016-08-17T10:21:32.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-759024"/>
+			<date key="time:timestamp" value="2016-05-11T17:47:51.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-531760"/>
+			<date key="time:timestamp" value="2016-04-29T09:37:36.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-04-18T07:41:49.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-04-25T22:05:42.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-286668"/>
+			<date key="time:timestamp" value="2016-07-12T18:18:58.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-04-26T11:21:38.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-06-15T10:41:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-05-30T19:40:04.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612997"/>
+			<date key="time:timestamp" value="2016-08-16T14:50:53.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-567911"/>
+			<date key="time:timestamp" value="2016-06-09T21:37:28.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-915707"/>
+			<date key="time:timestamp" value="2016-08-18T13:52:26.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-03-17T11:26:34.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-05-03T11:40:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-241092"/>
+			<date key="time:timestamp" value="2016-05-10T09:50:42.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-821420"/>
+			<date key="time:timestamp" value="2016-05-25T13:17:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-375645"/>
+			<date key="time:timestamp" value="2016-05-11T16:50:23.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-06-09T13:14:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-341217"/>
+			<date key="time:timestamp" value="2016-07-11T15:57:36.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-928482"/>
+			<date key="time:timestamp" value="2016-07-13T18:09:53.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-121095"/>
+			<date key="time:timestamp" value="2016-05-10T13:50:53.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="AZ-19661650.P"/>
+		<event>
+			<string key="concept:name" value="WS-614213"/>
+			<date key="time:timestamp" value="2016-04-26T19:21:29.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-553920"/>
+			<date key="time:timestamp" value="2016-05-24T13:57:45.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-04-05T18:49:55.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-886318"/>
+			<date key="time:timestamp" value="2016-06-27T12:24:30.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-05-31T16:56:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-429495"/>
+			<date key="time:timestamp" value="2016-06-30T16:35:57.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-06-02T13:50:56.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-02-26T10:25:12.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-728223"/>
+			<date key="time:timestamp" value="2016-07-26T16:47:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-048654"/>
+			<date key="time:timestamp" value="2016-10-04T21:55:18.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-03-02T08:32:06.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-074781"/>
+			<date key="time:timestamp" value="2016-04-29T18:40:31.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-249659"/>
+			<date key="time:timestamp" value="2016-04-06T15:53:37.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-940018"/>
+			<date key="time:timestamp" value="2016-02-25T13:38:12.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-417402"/>
+			<date key="time:timestamp" value="2016-07-25T16:06:32.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-06-01T08:10:07.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-03-11T07:56:09.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-895249"/>
+			<date key="time:timestamp" value="2016-07-26T11:21:59.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-950765"/>
+			<date key="time:timestamp" value="2016-05-06T07:56:34.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-615244"/>
+			<date key="time:timestamp" value="2016-04-27T10:34:44.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-531760"/>
+			<date key="time:timestamp" value="2016-08-10T09:09:49.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-000621"/>
+			<date key="time:timestamp" value="2016-04-26T16:49:24.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-03-22T07:42:49.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-04-05T20:32:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-286668"/>
+			<date key="time:timestamp" value="2016-06-29T10:44:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-04-05T19:08:04.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-05-30T17:00:25.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-07-07T18:47:52.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612997"/>
+			<date key="time:timestamp" value="2016-04-27T09:02:22.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-567911"/>
+			<date key="time:timestamp" value="2016-06-06T09:06:42.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-915707"/>
+			<date key="time:timestamp" value="2016-07-26T13:48:27.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-03-08T11:06:29.000+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-05-03T10:36:34.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-183736"/>
+			<date key="time:timestamp" value="2016-04-27T08:29:59.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-05-30T17:40:18.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-341217"/>
+			<date key="time:timestamp" value="2016-07-05T16:49:55.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-928482"/>
+			<date key="time:timestamp" value="2016-06-28T08:14:22.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-119287"/>
+			<date key="time:timestamp" value="2016-04-27T09:07:14.000+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="PL-15253414.F"/>
+		<event>
+			<string key="concept:name" value="WS-614213"/>
+			<date key="time:timestamp" value="2016-07-26T09:54:52.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-335429"/>
+			<date key="time:timestamp" value="2016-07-11T21:52:07.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-886318"/>
+			<date key="time:timestamp" value="2016-09-27T11:24:05.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-515211"/>
+			<date key="time:timestamp" value="2016-09-06T08:11:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-429495"/>
+			<date key="time:timestamp" value="2016-09-26T16:20:34.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-380671"/>
+			<date key="time:timestamp" value="2016-09-07T15:15:28.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-945022"/>
+			<date key="time:timestamp" value="2016-06-08T07:30:30.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-906948"/>
+			<date key="time:timestamp" value="2016-06-06T11:25:14.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-728223"/>
+			<date key="time:timestamp" value="2016-10-10T21:49:55.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-918163"/>
+			<date key="time:timestamp" value="2016-06-09T09:02:43.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-074781"/>
+			<date key="time:timestamp" value="2016-08-11T13:02:17.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-249659"/>
+			<date key="time:timestamp" value="2016-07-16T08:11:07.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-417402"/>
+			<date key="time:timestamp" value="2016-10-06T16:43:06.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-854986"/>
+			<date key="time:timestamp" value="2016-09-06T11:49:26.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-541770"/>
+			<date key="time:timestamp" value="2016-06-01T07:32:31.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-950765"/>
+			<date key="time:timestamp" value="2016-08-16T08:06:07.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-615244"/>
+			<date key="time:timestamp" value="2016-07-28T08:10:13.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-000621"/>
+			<date key="time:timestamp" value="2016-07-26T10:00:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-472537"/>
+			<date key="time:timestamp" value="2016-06-23T12:52:31.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612577"/>
+			<date key="time:timestamp" value="2016-07-14T08:42:44.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-286668"/>
+			<date key="time:timestamp" value="2016-09-26T18:31:39.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-101316"/>
+			<date key="time:timestamp" value="2016-07-11T16:24:03.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-568433"/>
+			<date key="time:timestamp" value="2016-09-07T16:05:56.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-222799"/>
+			<date key="time:timestamp" value="2016-09-13T20:52:20.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-612997"/>
+			<date key="time:timestamp" value="2016-07-26T18:59:10.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-567911"/>
+			<date key="time:timestamp" value="2016-09-07T19:06:55.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-915707"/>
+			<date key="time:timestamp" value="2016-10-06T20:31:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-930378"/>
+			<date key="time:timestamp" value="2016-06-08T10:05:01.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-706557"/>
+			<date key="time:timestamp" value="2016-07-19T10:07:48.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-183736"/>
+			<date key="time:timestamp" value="2016-07-27T08:05:21.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-737506"/>
+			<date key="time:timestamp" value="2016-09-06T14:19:51.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-341217"/>
+			<date key="time:timestamp" value="2016-10-04T10:32:59.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-928482"/>
+			<date key="time:timestamp" value="2016-09-26T10:57:10.000+02:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="WS-119287"/>
+			<date key="time:timestamp" value="2016-07-27T07:50:41.000+02:00"/>
+		</event>
+	</trace>
+</log>
