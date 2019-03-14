@@ -210,8 +210,6 @@ You will need the following imports to work with this tool:
 
 1. The ELE DSL.
 ```scala
-import es.us.idea.adt.data.chameleon.internal.dtfs._
-import es.us.idea.adt.data.chameleon.dsl.implicits._
 import es.us.idea.ele.xes.dsl.implicits._
 ```
 
