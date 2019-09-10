@@ -206,7 +206,8 @@ object implicits {
       val fileLines = Files.readAllLines(file.toPath).asScala.toList
 
       // From json documents to list
-      val jsonStr = "[" + fileLines.mkString(", ") + "]"
+      //val jsonStr = "[" + fileLines.mkString(", ") + "]"
+      val jsonStr = fileLines.mkString("")
 
       // Instantiate the mapper object and get the JSON tree
       val mapper = new ObjectMapper()
